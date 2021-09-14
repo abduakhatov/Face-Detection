@@ -46,7 +46,7 @@ const PassData = ({ setToken }) => {
   const [loading, setLoading] = useState(false);
   return (
     <div className="auth_box auth_box_change">
-      <form onSubmit={handleSubmit(onSubmit)}>
+      <form onSubmit={handleSubmit(onSubmit)} autoComplete="off">
         <Controller
           render={({ field }) => (
             <TextField

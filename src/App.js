@@ -142,6 +142,7 @@ class App extends React.Component {
       step: PASS_INPUT,
     });
   };
+
   render() {
     const { loading, auth_result, step } = this.state;
     return (
